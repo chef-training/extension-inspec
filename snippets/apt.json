@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe apt": {
+      "prefix": "apt",
+      "body": "# http://inspec.io/docs/reference/resources/apt/\ndescribe apt('${2:path}') do\n  it { should ${3:exist} }\n  it { should ${4:be_enabled} }${5}\nend"
+    }
+  }
+}

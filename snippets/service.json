@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe service": {
+      "prefix": "service",
+      "body": "# http://inspec.io/docs/reference/resources/service/\ndescribe service('${1:service_name}') do\n  it { should${2:_not} ${3:be_running} }${4}\nend"
+    }
+  }
+}

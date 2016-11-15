@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe registry_key": {
+      "prefix": "registry_key",
+      "body": "# http://inspec.io/docs/reference/resources/registry_key/\nkey = registry_key('${1:Key}', '${2:HKEY_LOCAL_MACHINE\\SYSTEM\\...}')\n\ndescribe key do\n  its('${3:name}') { should${4:_not} eq '${5:value}' }${6}\nend"
+    }
+  }
+}

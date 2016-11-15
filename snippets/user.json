@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe user": {
+      "prefix": "user",
+      "body": "# http://inspec.io/docs/reference/resources/user/\ndescribe user('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+    }
+  }
+}

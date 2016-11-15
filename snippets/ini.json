@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe ini": {
+      "prefix": "ini",
+      "body": "# http://inspec.io/docs/reference/resources/ini/\ndescribe ini('${1:path}') do\n  its('${2:setting_name}') { should${3:_not} eq '${4:value}' }${5}\nend"
+    }
+  }
+}

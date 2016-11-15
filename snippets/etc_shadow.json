@@ -1,0 +1,12 @@
+{
+  ".source.inspec": {
+    "Describe etc_shadow": {
+      "prefix": "etc_shadow",
+      "body": "# http://inspec.io/docs/reference/resources/etc_shadow/\ndescribe shadow do\n  its('users') { should${1:_not} include '${2:user}' }${3}\nend"
+    },
+    "Describe shadow": {
+      "prefix": "shadow",
+      "body": "# http://inspec.io/docs/reference/resources/etc_shadow/\ndescribe shadow do\n  its('users') { should${1:_not} include '${2:user}' }${3}\nend"
+    }
+  }
+}

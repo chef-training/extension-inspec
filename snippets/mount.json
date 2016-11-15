@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe mount": {
+      "prefix": "mount",
+      "body": "# http://inspec.io/docs/reference/resources/mount/\ndescribe mount('${1:path}') do\n  it { should${2:_not} be_mounted }\n  its('${3:setting}') { should eq '${4:value}' }${5}\nend"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe parse_config_file": {
+      "prefix": "parse_config_file",
+      "body": "# http://inspec.io/docs/reference/resources/parse_config_file/\noptions = {\n  assignment_re: /${2:pattern}/,\n  multiple_values: ${3:true||false}\n}\n\ndescribe parse_config_file('${1:path}', options) do\n  its('${4:setting}') { should${5:_not} eq '${6:value}' }${7}\nend"
+    }
+  }
+}

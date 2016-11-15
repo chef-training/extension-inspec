@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe wmi": {
+      "prefix": "wmi",
+      "body": "# http://inspec.io/docs/reference/resources/wmi/\nwmi_resource = wmi({\n  class: '${1:class_name}',\n  namespace: '${2:path\\\\\\\\to\\\\\\\\setting}',\n  filter: '${3:filter}',\n  query: '${4:query}'\n})\n\ndescribe wmi_resource do\n  its('${5:setting}') { should${6:_not} eq '${7:value}' }${8}\nend"
+    }
+  }
+}

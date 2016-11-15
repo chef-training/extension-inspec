@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe file": {
+      "prefix": "file",
+      "body": "# http://inspec.io/docs/reference/resources/file/\ndescribe file('${1:/tmp/filename}') do\n  it { should${2:_not} ${3:exist} }\n  it { should be_owned_by '${4:user}'}\n  its('content') { should${5:_not} match /${6:content}/ }${7}\nend"
+    }
+  }
+}

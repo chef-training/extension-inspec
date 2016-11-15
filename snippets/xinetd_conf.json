@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe xinetd_conf": {
+      "prefix": "xinetd_conf",
+      "body": "# http://inspec.io/docs/reference/resources/xinetd_conf/\ndescribe xinetd_conf.services('${1:service_name}') do\n  it { should${2:_not} ${3:be_disabled} }\n  its('${4:setting}') { should${5:_not} eq '${6:value}' }${7}\nend"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  ".source.inspec": {
+    "Describe powershell": {
+      "prefix": "powershell",
+      "body": "# http://inspec.io/docs/reference/resources/powershell/\nscript = <<-EOH\n  ${1:# A PowerShell script}\nEOH\n\ndescribe powershell(script) do\n  its('stdout') { should${2:_not} eq '${3:value}' }\n  its('stderr') { should${4:_not} eq '${5:value}' }${6}\nend"
+    },
+    "Describe ps": {
+      "prefix": "ps",
+      "body": "# http://inspec.io/docs/reference/resources/powershell/\nscript = <<-EOH\n  ${1:# A PowerShell script}\nEOH\n\ndescribe powershell(script) do\n  its('stdout') { should${2:_not} eq '${3:value}' }\n  its('stderr') { should${4:_not} eq '${5:value}' }${6}\nend"
+    }
+  }
+}

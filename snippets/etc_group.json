@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe etc_group": {
+      "prefix": "etc_group",
+      "body": "# http://inspec.io/docs/reference/resources/etc_group/\ndescribe etc_group do\n  its('groups') { should${1:_not} include '${2:group_name}' }\n  its('users') { should${3:_not} include '${4:user_name}' }${5}\nend"
+    }
+  }
+}

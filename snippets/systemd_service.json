@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe systemd_service": {
+      "prefix": "systemd_service",
+      "body": "# http://inspec.io/docs/reference/resources/systemd_service/\ndescribe systemd_service('${1:service_name}') do\n  it { should${2:_not} ${3:be_installed} }${4}\nend"
+    }
+  }
+}

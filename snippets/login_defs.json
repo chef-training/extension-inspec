@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe login_defs": {
+      "prefix": "login_defs",
+      "body": "# http://inspec.io/docs/reference/resources/login_def/\ndescribe login_defs do\n  it('${1:setting}') { should${2:_not} eq '${3:value}' }${4}\nend"
+    }
+  }
+}

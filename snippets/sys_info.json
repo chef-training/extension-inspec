@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe sys_info": {
+      "prefix": "sys_info",
+      "body": "# http://inspec.io/docs/reference/resources/sys_info/\ndescribe sys_info do\n  its('${1:setting}') { should${2:_not} eq '${3:value}' }${4}\nend"
+    }
+  }
+}

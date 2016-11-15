@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe vbscript": {
+      "prefix": "vbscript",
+      "body": "# http://inspec.io/docs/reference/resources/vbscript/\ndescribe vbscript('${1:script_name}') do\n  its('stdout') { should${2:_not} eq '${3:output}' }${4}\nend"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe npm": {
+      "prefix": "npm",
+      "body": "# http://inspec.io/docs/reference/resources/npm/\ndescribe npm('${1:npm_package_name}') do\n  it { should${2:_not} be_installed }\n  its('version') { should eq '${3:version}' }${4}\nend"
+    }
+  }
+}

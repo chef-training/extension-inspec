@@ -1,0 +1,12 @@
+{
+  ".source.inspec": {
+    "Describe mysql_session": {
+      "prefix": "mysql_session",
+      "body": "# http://inspec.io/docs/reference/resources/mysql_session/\nsql = mysql_session('${1:username}', '${2:password}')\n\ndescribe sql.query('${3:QUERY}') do\n  its('stdout') { should${4:_not} match(/${5:text}/) }${6}\nend"
+    },
+    "Describe sql": {
+      "prefix": "sql",
+      "body": "describe sql.query('${1:QUERY}') do\n  its('stdout') { should${2:_not} match(/${3:text}/) }${4}\nend"
+    }
+  }
+}

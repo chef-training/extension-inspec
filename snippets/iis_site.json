@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe iis_site": {
+      "prefix": "iis_site",
+      "body": "# http://inspec.io/docs/reference/resources/iis_site/\ndescribe iis_site('${1:Default Web Site}') do\n  it { should${2:_not} ${3:exist} }\n  it { should${4:_not} be_running }\n  it { should have_app_pool('${5:DefaultAppPool}') }\nend"
+    }
+  }
+}

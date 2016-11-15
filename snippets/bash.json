@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe bash": {
+      "prefix": "bash",
+      "body": "# http://inspec.io/docs/reference/resources/bash/\ndescribe bash('${1:command}') do\n  its('stdout') { should${4:_not} match /${5:text}/ }\n  its('stderr') { should${6:_not} match /${7:text}/ }\n  its('exit_status') { should${8:_not} eq ${9:0} }${10}\nend"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe users": {
+      "prefix": "users",
+      "body": "# http://inspec.io/docs/reference/resources/users/\ndescribe users.where(${1:key}: '${2:value}').entries do\n  its('${3:setting}') { should${4:_not} eq '${5:value}' }${6}\nend"
+    }
+  }
+}

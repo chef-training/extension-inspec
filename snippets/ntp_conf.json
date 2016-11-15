@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe ntp_conf": {
+      "prefix": "ntp_conf",
+      "body": "# http://inspec.io/docs/reference/resources/ntp_conf/\ndescribe ntp_conf('${1:path}') do\n  its('${2:setting}') { should${3:_not} eq '${4:value}' }${5}\nend"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe auditd_conf": {
+      "prefix": "auditd_conf",
+      "body": "# http://inspec.io/docs/reference/resources/auditd_rules/\ndescribe auditd_conf('${1:/etc/audit/auditd.conf}') do\n  its('${3:setting}') { should${4:_not} cmp '${5:value}' }${6}\nend"
+    }
+  }
+}

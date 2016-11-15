@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe csv": {
+      "prefix": "csv",
+      "body": "# http://inspec.io/docs/reference/resources/csv/\ndescribe csv('${1:some_file.csv}') do\n  its('${2:setting}') { should${3:_not} eq ${4:value} }${5}\nend"
+    }
+  }
+}

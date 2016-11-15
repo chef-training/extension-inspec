@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe host": {
+      "prefix": "host",
+      "body": "# http://inspec.io/docs/reference/resources/host/\ndescribe host('${1:address}', port: ${2:port}, proto: '${3:protocol}') do\n  it { should${4:_not} be_reachable }${5}\nend"
+    }
+  }
+}

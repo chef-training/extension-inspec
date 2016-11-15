@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe postgres_session": {
+      "prefix": "postgres_session",
+      "body": "# http://inspec.io/docs/reference/resources/postgres_session/\nsql = postgres_session('${1:username}', '${2:password}')\n\ndescribe sql.query('${3:QUERY}') do\n  its('stdout') { should${4:_not} match(/${5:text}/) }${6}\nend"
+    }
+  }
+}

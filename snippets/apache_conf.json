@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "apache_conf describe": {
+      "prefix": "apache_conf",
+      "body": "# http://inspec.io/docs/reference/resources/apache_conf/\ndescribe apache_conf('${2:path}') do\n  its('${3:setting_name}') { should eq '${4:value}' }${5}\nend"
+    }
+  }
+}

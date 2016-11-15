@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe windows_feature": {
+      "prefix": "windows_feature",
+      "body": "# http://inspec.io/docs/reference/resources/windows_feature/\ndescribe windows_feature('${1:feature_name}') do\n  it { should${2:_not} be_installed }${3}\nend"
+    }
+  }
+}

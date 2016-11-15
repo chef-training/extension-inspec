@@ -1,0 +1,12 @@
+{
+  ".source.inspec": {
+    "Describe launchd_service": {
+      "prefix": "launchd_service",
+      "body": "# http://inspec.io/docs/reference/resources/launchd_service/\ndescribe launchd_service('${1:service_name}') do\n  it { should${2:_not} be_running }${4}\nend"
+    },
+    "Describe launchd": {
+      "prefix": "launchd",
+      "body": "# http://inspec.io/docs/reference/resources/launchd_service/\ndescribe launchd_service('${1:service_name}') do\n  it { should${2:_not} be_running }${4}\nend"
+    }
+  }
+}

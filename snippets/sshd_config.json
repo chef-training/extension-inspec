@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe sshd_config": {
+      "prefix": "sshd_config",
+      "body": "# http://inspec.io/docs/reference/resources/sshd_config/\ndescribe sshd_config do\n  its('${1:setting}') { should${2:_not} eq '${3:value}' }${4}\nend"
+    }
+  }
+}

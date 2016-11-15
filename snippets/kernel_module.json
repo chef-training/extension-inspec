@@ -1,0 +1,12 @@
+{
+  ".source.inspec": {
+    "Describe kernel_module": {
+      "prefix": "kernel_module",
+      "body": "# http://inspec.io/docs/reference/resources/kernel_module/\ndescribe kernel_module('${1:module_name}') do\n  it { should${2:_not} be_loaded }${3}\nend"
+    },
+    "Describe kernel_mod": {
+      "prefix": "kernel_mod",
+      "body": "# http://inspec.io/docs/reference/resources/kernel_module/\ndescribe kernel_module('${1:module_name}') do\n  it { should${2:_not} be_loaded }${3}\nend"
+    }
+  }
+}

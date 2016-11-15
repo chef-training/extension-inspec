@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe parse_config": {
+      "prefix": "parse_config",
+      "body": "# http://inspec.io/docs/reference/resources/parse_config/\noutput = command('${1:command}').stdout\noptions = {\n  assignment_re: /${2:pattern}/,\n  multiple_values: ${3:true||false}\n}\n\ndescribe parse_config(output, options) do\n  its('${4:setting}') { should${5:_not} eq '${6:value}' }${7}\nend"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe command": {
+      "prefix": "command",
+      "body": "# http://inspec.io/docs/reference/resources/command/\ndescribe command('${1:command}') do\n  its('stdout') { should${4:_not} match /${5:text}/ }\n  its('stderr') { should${6:_not} match /${7:text}/ }\n  its('exit_status') { should${8:_not} eq ${9:0} }${10}\nend"
+    }
+  }
+}

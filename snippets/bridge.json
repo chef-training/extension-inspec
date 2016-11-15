@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe bridge": {
+      "prefix": "bridge",
+      "body": "# http://inspec.io/docs/reference/resources/bridge/\ndescribe bridge('${1:name}') do\n  it { should${2:_not} ${3:exist} }\n  it { should${4:_not} have_interface '${5:eth0}' }${6}\nend"
+    }
+  }
+}

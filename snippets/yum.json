@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe yum": {
+      "prefix": "yum",
+      "body": "# http://inspec.io/docs/reference/resources/yum/\ndescribe yum.repo('${1:name}') do\n  it { should${2:_not} ${3:exist} }\n  it { should${4:_not} be_enabled }${5}\nend"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe interface": {
+      "prefix": "interface",
+      "body": "# http://inspec.io/docs/reference/resources/interface/\ndescribe interface do\n  it { should${1:_not} be_up }\n  its('${2:property}') { should${3:_not} eq '${4:value}' }${5}\nend"
+    }
+  }
+}

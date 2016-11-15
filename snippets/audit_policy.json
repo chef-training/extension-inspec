@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe audit_policy": {
+      "prefix": "audit_policy",
+      "body": "# http://inspec.io/docs/reference/resources/audit_policy/\ndescribe audit_policy do\n  its('${3:event}') { should${4:_not} eq '${5:No Auditing, Not Specified, Success, Success and Failure, or Failure}' }${6}\nend"
+    }
+  }
+}

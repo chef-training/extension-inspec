@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe limits_conf": {
+      "prefix": "limits_conf",
+      "body": "# http://inspec.io/docs/reference/resources/limits_conf/\ndescribe limits_conf('${1:path}') do\n  its('${2:setting}') { should${3:_not} eq ${4:value} }${5}\nend"
+    }
+  }
+}

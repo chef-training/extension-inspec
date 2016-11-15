@@ -1,0 +1,12 @@
+{
+  ".source.inspec": {
+    "Describe process": {
+      "prefix": "process",
+      "body": "# http://inspec.io/docs/reference/resources/process/\ndescribe processes('${1:name}') do\n  its('${2:setting}') { should${3:_not} eq '${4:value}' }${5}\nend"
+    },
+    "Describe processes": {
+      "prefix": "processes",
+      "body": "# http://inspec.io/docs/reference/resources/process/\ndescribe processes('${1:name}') do\n  its('${2:setting}') { should${3:_not} eq '${4:value}' }${5}\nend"
+    }
+  }
+}

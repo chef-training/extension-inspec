@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe mysql_conf": {
+      "prefix": "mysql_conf",
+      "body": "# http://inspec.io/docs/reference/resources/mysql_conf/\ndescribe mysql_conf('${1:path}') do\n  its('${2:setting}') { should${3:_not} eq '${4:value}' }${5}\nend"
+    }
+  }
+}

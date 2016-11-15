@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe os_env": {
+      "prefix": "os_env",
+      "body": "# http://inspec.io/docs/reference/resources/os_env/\ndescribe os_env('${1:name}') do\n  its('content') { should${2:_not} eq '${3:value}' }${4}\nend"
+    }
+  }
+}

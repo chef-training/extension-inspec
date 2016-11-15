@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe bsd_service": {
+      "prefix": "bsd_service",
+      "body": "# http://inspec.io/docs/reference/resources/bsd_service/\ndescribe bsd_service('${1:name}') do\n  it { should${2:_not} ${3:be_running} }${4}\nend"
+    }
+  }
+}

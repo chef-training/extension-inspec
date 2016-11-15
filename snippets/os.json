@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe os": {
+      "prefix": "os",
+      "body": "# http://inspec.io/docs/reference/resources/os/\ndescribe os[:family] do\n  it { should${1:_not} eq '${2:platform}' }${3}\nend"
+    }
+  }
+}

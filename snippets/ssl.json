@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe ssl": {
+      "prefix": "ssl",
+      "body": "# http://inspec.io/docs/reference/resources/ssl/\ndescribe ssl(port: ${1:number}) do\n  it { should${2:_not} be_enabled }${3}\nend"
+    }
+  }
+}

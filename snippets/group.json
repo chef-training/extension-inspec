@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe group": {
+      "prefix": "group",
+      "body": "# http://inspec.io/docs/reference/resources/group/\ndescribe group('${1:name}') do\n  it { should${2:_not} ${3:exist} }\n  its('gid') { should eq ${4:gid_value} }${5}\nend"
+    }
+  }
+}

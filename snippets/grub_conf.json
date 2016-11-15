@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "Describe grub_conf": {
+      "prefix": "grub_conf",
+      "body": "# http://inspec.io/docs/reference/resources/grub_conf/\ndescribe grub_conf('${1:path}', '${2:default}') do\n  its('${3:setting}') { should${4:_not} include '${5:value}' }${6}\nend"
+    }
+  }
+}
