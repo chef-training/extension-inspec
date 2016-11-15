@@ -20,10 +20,6 @@
         "snippets":[
             {
                 "language": "inspec",
-                "path": "./snippets/language.json"
-            },
-            {
-                "language": "inspec",
                 "path": "./snippets/_language-inspec.json"
             },
             {
