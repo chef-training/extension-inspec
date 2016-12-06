@@ -276,6 +276,10 @@
             },
             {
                 "language": "inspec",
+                "path": "./snippets/windows_task.json"
+            },
+            {
+                "language": "inspec",
                 "path": "./snippets/wmi.json"
             },
             {
