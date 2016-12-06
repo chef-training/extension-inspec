@@ -1,0 +1,8 @@
+{
+  ".source.inspec": {
+    "audit a scheduled tasks configuration on the Windows platform.": {
+      "prefix": "windows_task",
+      "body": "# http://inspec.io/docs/reference/resources/windows_task/\ndescribe windows_task('${1:\\microsoft\\task_name_uri}') do\n  it { should${2:_not} be_enabled }${3}\nend"
+    }
+  }
+}
