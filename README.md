@@ -33,14 +33,17 @@ end
 
 ``` insert animation gif - to show discribe block creation.```
 
-## [InSpec](http://inspec.io) - compliance as code
 
-* TODO: What is inspec
-* TODO: where can I find more [inspec.io](http://inspec.io)
-* TODO: Mention the interactive demo
+## What is InSpec?
+InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements.
+### Where can I find more?
+The [inspec.io](http://inspec.io) website is full of documentation and links to download the code
+There is also an _interactive demo_ which will allow you try it out in a web browse
 
-### InSpec Snippet Support matrix
 
+## InSpec Snippet Support matrix
+[//]: # ( Use a :x: if we don't have support)
+[//]: # ( Use a :white_check_mark: if we do have support provide link to source code)
 
 | *InSpec Resource* | *Extension Snippet* |
 |-------------------|---------------------|
