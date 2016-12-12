@@ -6,36 +6,39 @@ This extension for Visual Studio Code provides grammar and code snippets for InS
 
 ## Features
 #### Syntax/keyword highlighting:
-* [InSpec](http://inspec.io) - control blocks
-* [InSpec](http://inspec.io) - discribe blocks
-* [InSpec](http://inspec.io) - resource
+* InSpec - control blocks
+* InSpec - discribe blocks
+* InSpec - resource
 
 ## Installation
  * You will need to install Visual Studio Code `1.5` or higher.
  * From the command palette ```Ctrl-Shift-P``` (Windows, Linux) or ```Cmd-Shift-P``` (OSX) select `Install Extension`, choose `Inspec` and reload Visual Studio Code.
- * To enable [InSpec](http://inspec.io) support, select the ```InSpec``` Language from bottom right or use the shortcut ```(Ctrl-K) M```
+ * Once the Extention is installed to enable if you will need to the ```InSpec``` language from the bottom right
+ This is what it should look like, the default is `Plain Text`
 ![InSpec Extention Enabled](/images/vscode-inspec.jpg)
+
+ *  or use the keyboard shortcut `(Ctrl-K) M` if you happen to be scared of mice :)
 ``` insert animation gif - to show enabling InSpec```
 
 ## Usage
-[InSpec](http://inspec.io) in its simplest form is _describe_ block in which you describe a _resource_ expected configuration.
+InSpec in it's simplest form is _describe_ block in which you describe a _resource's_ expected configuration. e.g.
 ```
 describe file('/etc/myapp.conf') do
   it { should exist }
   its('mode') { should cmp '0644' }
 end
 ```
-**TIP:** To get the best out of this extention, start typing the resource you want to use (using the example above ```file``` is the resource ) so start typing ```file``` and let the snippet create the discribe block for you
+**TIP:** Try typing the resource you want to use i.e. `file` and let the snippet create the discribe block for you
 
 ``` insert animation gif - to show discribe block creation.```
 
 ## [InSpec](http://inspec.io) - compliance as code
 
-TODO: * What is inspec
-TODO: * where can I find more [inspec.io](http://inspec.io)
-TODO: * Mention the interactive demo
+* TODO: What is inspec
+* TODO: where can I find more [inspec.io](http://inspec.io)
+* TODO: Mention the interactive demo
 
-### [InSpec](http://inspec.io) Snippet Support matrix
+### InSpec Snippet Support matrix
 
 
 | *InSpec Resource* | *Extension Snippet* |
