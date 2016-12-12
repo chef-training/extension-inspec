@@ -30,7 +30,7 @@ end
 ```
 **TIP:** Try typing the resource you want to use i.e. `file` and let the snippet create the describe block for you
 
-![InSpec describe demo](/images/vscode-inspec-describe-demo.gif)
+![InSpec describe demo](/images/vscode-inspec-demo.gif)
 
 ## What is InSpec?
 InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements.
@@ -113,6 +113,17 @@ There is also an _interactive demo_ in which will allow you try it out with a we
 |[xinetd_conf](http://inspec.io//docs/reference/resources/xinetd_conf)| :white_check_mark: [xinetd_conf.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/xinetd_conf.json)|
 |[yaml](http://inspec.io//docs/reference/resources/yaml)| :white_check_mark: [yaml.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/yaml.json)|
 |[yum](http://inspec.io//docs/reference/resources/yum)| :white_check_mark: [yum.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/yum.json)|
+
+## Publishing
+
+This describes the setup procedure for the tools and tokens required to publish the extension: https://code.visualstudio.com/docs/tools/vscecli
+
+```
+$ vsce publish (major|minor|patch)
+# OR
+# bump the version in the `package.json`
+$ vsce publish
+```
 
 ## Contributions
 
