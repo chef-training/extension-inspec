@@ -12,12 +12,13 @@ This extension for Visual Studio Code provides grammar and code snippets for InS
 
 ## Installation
  * You will need to install Visual Studio Code `1.5` or higher.
- * From the command palette ```Ctrl-Shift-P``` (Windows, Linux) or ```Cmd-Shift-P``` (OSX) select `Install Extension`, choose `Inspec` and reload Visual Studio Code.
- * Once the Extention is installed to enable if you will need to the ```InSpec``` language from the bottom right
- This is what it should look like, the default is `Plain Text`
-![InSpec Extention Enabled](/images/vscode-inspec.jpg)
+ * From the command palette `Ctrl-Shift-P` (Windows, Linux) or `Cmd-Shift-P` (OSX) select `Install Extension`, choose `Inspec` and reload Visual Studio Code.
+ * Once the Extention is installed to enable it, choose the `InSpec` language from the bottom right corner (the default is `Plain Text`)
+ It should then look like this
 
- *  or use the keyboard shortcut `(Ctrl-K) M` if you happen to be scared of mice :)
+   ![InSpec Extention Enabled](/images/vscode-inspec.jpg)
+
+ *  .... or use the keyboard shortcut `(Ctrl-K) M & type Inspec` if you happen to be scared of mice :)
 ``` insert animation gif - to show enabling InSpec```
 
 ## Usage
