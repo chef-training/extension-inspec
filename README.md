@@ -7,7 +7,7 @@ This extension for Visual Studio Code provides grammar and code snippets for InS
 ## Features
 #### Syntax/keyword highlighting:
 * InSpec - control blocks
-* InSpec - discribe blocks
+* InSpec - describe blocks
 * InSpec - resource
 
 ## Installation
@@ -28,15 +28,15 @@ describe file('/etc/myapp.conf') do
   its('mode') { should cmp '0644' }
 end
 ```
-**TIP:** Try typing the resource you want to use i.e. `file` and let the snippet create the discribe block for you
+**TIP:** Try typing the resource you want to use i.e. `file` and let the snippet create the describe block for you
 
-![InSpec discribe demo](/images/vscode-inspec-discribe-demo.gif)
+![InSpec describe demo](/images/vscode-inspec-describe-demo.gif)
 
 ## What is InSpec?
 InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements.
 ### Where can I find more?
 The [inspec.io](http://inspec.io) website is full of documentation and links to download the code
-There is also an _interactive demo_ in which will allow you try it out with a webbrowser.
+There is also an _interactive demo_ in which will allow you try it out with a web browser.
 
 
 ## InSpec Snippet Support matrix
@@ -120,7 +120,7 @@ Contributions are welcomed, please create an issue and a pull requests via the [
 
 ## Version History
 ### 0.1.2 - 06/12/2016
-* Added a snippet for the```[windows_task]```resounce ([username-is-already-taken2](https://github.com/username-is-already-taken2))
+* Added a snippet for the```[windows_task]```resource ([username-is-already-taken2](https://github.com/username-is-already-taken2))
 
 ### 0.1.1 - 15/11/2016
 * This was is the initial release of extension
