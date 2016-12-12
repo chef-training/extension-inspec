@@ -38,7 +38,7 @@ end
 InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements.
 ### Where can I find more?
 The [inspec.io](http://inspec.io) website is full of documentation and links to download the code
-There is also an _interactive demo_ which will allow you try it out in a web browse
+There is also an _interactive demo_ in which will allow you try it out with a webbrowser.
 
 
 ## InSpec Snippet Support matrix
@@ -118,7 +118,7 @@ There is also an _interactive demo_ which will allow you try it out in a web bro
 
 ## Contributions
 
-Contributions are welcomed, please file an issues and a pull requests via the [project homepage](https://github.com/chef-training/extension-inspec).
+Contributions are welcomed, please create an issue and a pull requests via the [project homepage](https://github.com/chef-training/extension-inspec).
 
 ## Version History
 ### 0.1.2 - 06/12/2016
