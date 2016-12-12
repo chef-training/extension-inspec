@@ -2,7 +2,7 @@
 
 This extension for Visual Studio Code provides grammar and code snippets for InSpec when using [Visual Studio Code](http://code.visualstudio.com).
 
-``` insert animation gif ```
+![InSpec Extention Demo](/images/vscode-inspec-demo.gif)
 
 ## Features
 #### Syntax/keyword highlighting:
@@ -19,7 +19,6 @@ This extension for Visual Studio Code provides grammar and code snippets for InS
    ![InSpec Extention Enabled](/images/vscode-inspec.jpg)
 
  *  .... or use the keyboard shortcut `(Ctrl-K) M & type Inspec` if you happen to be scared of mice :)
-``` insert animation gif - to show enabling InSpec```
 
 ## Usage
 InSpec in it's simplest form is _describe_ block in which you describe a _resource's_ expected configuration. e.g.
@@ -31,8 +30,7 @@ end
 ```
 **TIP:** Try typing the resource you want to use i.e. `file` and let the snippet create the discribe block for you
 
-``` insert animation gif - to show discribe block creation.```
-
+![InSpec discribe demo](/images/vscode-inspec-discribe-demo.gif)
 
 ## What is InSpec?
 InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements.
