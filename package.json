@@ -1,9 +1,17 @@
 {
     "name": "inspec",
     "displayName": "InSpec",
-    "description": "Provide InSpec grammar and snippets to VS Code",
-    "version": "0.1.1",
+    "description": "Provide InSpec grammar and snippets to Visual Studio Code",
+    "version": "0.1.2",
     "publisher": "burtlo",
+	"icon": "images/inspec-logo.svg",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chef-training/extension-inspec.git"
+	},
+	"bugs": {
+		"url": "https://github.com/chef-training/extension-inspec/issues"
+	},      
     "engines": {
         "vscode": "^1.5.0"
     },
