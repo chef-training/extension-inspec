@@ -1,4 +1,4 @@
-# [InSpec](http://inspec.io) Extenstion for Visual Studio Code
+# [InSpec](http://inspec.io) Extension for Visual Studio Code
 
 This extension for Visual Studio Code provides grammar and code snippets for InSpec when using [Visual Studio Code](http://code.visualstudio.com).
 
