@@ -72,11 +72,27 @@
             },
             {
                 "language": "inspec",
+                "path": "./snippets/crontab.json"
+            },
+            {
+                "language": "inspec",
                 "path": "./snippets/csv.json"
             },
             {
                 "language": "inspec",
                 "path": "./snippets/directory.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/docker.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/docker_image.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/docker_container.json"
             },
             {
                 "language": "inspec",
@@ -109,6 +125,10 @@
             {
                 "language": "inspec",
                 "path": "./snippets/host.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/http.json"
             },
             {
                 "language": "inspec",

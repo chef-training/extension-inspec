@@ -1,0 +1,13 @@
+{
+  ".source.inspec": {
+    "Describe docker": {
+      "prefix": "docker",
+      "body": [
+          "# http://www.inspec.io/docs/reference/resources/docker/",
+          "describe docker.${1|containers,images,info,object,version|} do",
+          "\tit$0",
+          "end"
+      ]
+    }
+  }
+}

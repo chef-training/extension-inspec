@@ -1,0 +1,13 @@
+{
+  ".source.inspec": {
+    "Describe crontab": {
+      "prefix": "crontab",
+      "body": [
+          "# http://www.inspec.io/docs/reference/resources/crontab/",
+          "describe crontab('${1:username}') do",
+          "\tits('commands') { should${2:_not} include '${3:command}' }",
+          "end"
+      ]
+    }
+  }
+}

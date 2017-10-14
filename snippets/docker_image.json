@@ -1,0 +1,14 @@
+{
+  ".source.inspec": {
+    "Describe docker image": {
+      "prefix": "docker_image",
+      "body": [
+          "# http://www.inspec.io/docs/reference/resources/docker_image/",
+          "describe docker_image('${1:imagename}') do",
+          "\tit { should${2:_not} exist }",
+          "\tits('tag') { should${3:_not} eq '${4:latest}' }",
+          "end"
+      ]
+    }
+  }
+}

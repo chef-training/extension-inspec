@@ -1,0 +1,15 @@
+{
+  ".source.inspec": {
+    "Describe docker container": {
+      "prefix": "docker_container",
+      "body": [
+          "# http://www.inspec.io/docs/reference/resources/docker_container/",
+          "describe docker_container('${1:containername}') do",
+          "\tit { should${2:_not} exist }",
+          "\tit { should${3:_not} be_running }",
+          "\tits('image') { should${4:_not} eq '${5:imagename}' }",
+          "end"
+      ]
+    }
+  }
+}

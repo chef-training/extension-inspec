@@ -1,0 +1,14 @@
+{
+  ".source.inspec": {
+    "Describe http": {
+      "prefix": "http",
+      "body": [
+          "# http://www.inspec.io/docs/reference/resources/http/",
+          "describe http('http://${1:localhost}') do",
+          "\tits('status') { should${2:_not} cmp ${3:200} }",
+          "\tits('body') { should${4:_not} cmp '${5:text}' }",
+          "end"
+      ]
+    }
+  }
+}
