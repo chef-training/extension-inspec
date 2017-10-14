@@ -55,8 +55,12 @@ There is also an _interactive demo_ in which will allow you try it out with a we
 |[bridge](http://inspec.io//docs/reference/resources/bridge)| :white_check_mark: [bridge.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/bridge.json)|
 |[bsd_service](http://inspec.io//docs/reference/resources/bsd_service)| :white_check_mark: [bsd_service.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/bsd_service.json)|
 |[command](http://inspec.io//docs/reference/resources/command)| :white_check_mark: [command.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/command.json)|
+|[crontab](http://inspec.io//docs/reference/resources/crontab)| :white_check_mark: [crontab.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/crontab.json)|
 |[csv](http://inspec.io//docs/reference/resources/csv)| :white_check_mark: [csv.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/csv.json)|
 |[directory](http://inspec.io//docs/reference/resources/directory)| :white_check_mark: [directory.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/directory.json)|
+|[docker](http://inspec.io//docs/reference/resources/docker)| :white_check_mark: [docker.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/docker.json)|
+|[docker_container](http://inspec.io//docs/reference/resources/dpcker_container)| :white_check_mark: [docker_container.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/docker_container.json)|
+|[docker_image](http://inspec.io//docs/reference/resources/docker_image)| :white_check_mark: [docker_image.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/docker_image.json)|
 |[etc_group](http://inspec.io//docs/reference/resources/etc_group)| :white_check_mark: [etc_group.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/etc_group.json)|
 |[etc_passwd](http://inspec.io//docs/reference/resources/etc_passwd)| :white_check_mark: [etc_passwd.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/etc_passwd.json)|
 |[etc_shadow](http://inspec.io//docs/reference/resources/etc_shadow)| :white_check_mark: [etc_shadow.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/etc_shadow.json)|
@@ -65,6 +69,7 @@ There is also an _interactive demo_ in which will allow you try it out with a we
 |[group](http://inspec.io//docs/reference/resources/group)| :white_check_mark: [group.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/group.json)|
 |[grub_conf](http://inspec.io//docs/reference/resources/grub_conf)| :white_check_mark: [grub_conf.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/grub_conf.json)|
 |[host](http://inspec.io//docs/reference/resources/host)| :white_check_mark: [host.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/host.json)|
+|[http](http://inspec.io//docs/reference/resources/http)| :white_check_mark: [http.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/http.json)|
 |[iis_site](http://inspec.io//docs/reference/resources/iis_site)| :white_check_mark: [iis_site.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/iis_site.json)|
 |[inetd_conf](http://inspec.io//docs/reference/resources/inetd_conf)| :white_check_mark: [inetd_conf.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/inetd_conf.json)|
 |[ini](http://inspec.io//docs/reference/resources/ini)| :white_check_mark: [ini.json](https://github.com/chef-training/extension-inspec/tree/master/snippets/ini.json)|
