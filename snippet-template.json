@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe <%= @resource %>": {
+        "prefix": "<%= @resource %>",
+        "body": "# http://inspec.io/docs/reference/resources/<%= @resource %>\ndescribe <%= @resource %>('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
