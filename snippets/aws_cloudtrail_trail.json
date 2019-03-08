@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_cloudtrail_trail": {
+        "prefix": "aws_cloudtrail_trail",
+        "body": "# http://inspec.io/docs/reference/resources/aws_cloudtrail_trail\ndescribe aws_cloudtrail_trail('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
