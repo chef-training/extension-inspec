@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe windows_hotfix": {
+        "prefix": "windows_hotfix",
+        "body": "# http://inspec.io/docs/reference/resources/windows_hotfix\ndescribe windows_hotfix('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
