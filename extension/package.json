@@ -2,30 +2,37 @@
     "name": "inspec",
     "displayName": "InSpec",
     "description": "Provide InSpec grammar and snippets to Visual Studio Code",
-    "version": "0.1.2",
+    "version": "0.4.1",
     "publisher": "burtlo",
-	"icon": "images/inspec-logo.svg",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/chef-training/extension-inspec.git"
-	},
-	"bugs": {
-		"url": "https://github.com/chef-training/extension-inspec/issues"
-	},      
+    "icon": "images/inspec-logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chef-training/extension-inspec.git"
+    },
+    "bugs": {
+        "url": "https://github.com/chef-training/extension-inspec/issues"
+    },
     "engines": {
         "vscode": "^1.5.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "inspec",
-            "aliases": ["InSpec", "inspec"],
-            "extensions": [".rb"],
-            "configuration": "./language-configuration.json"
-        }],
-        "snippets":[
+        "languages": [
+            {
+                "id": "inspec",
+                "aliases": [
+                    "InSpec",
+                    "inspec"
+                ],
+                "extensions": [
+                    ".rb"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "snippets": [
             {
                 "language": "inspec",
                 "path": "./snippets/_language-inspec.json"
@@ -302,12 +309,13 @@
                 "language": "inspec",
                 "path": "./snippets/yum.json"
             }
-
         ],
-        "grammars": [{
-            "language": "inspec",
-            "scopeName": "source.ruby.rspec",
-            "path": "./syntaxes/inspec.tmLanguage"
-        }]
+        "grammars": [
+            {
+                "language": "inspec",
+                "scopeName": "source.ruby.rspec",
+                "path": "./syntaxes/inspec.tmLanguage"
+            }
+        ]
     }
 }
