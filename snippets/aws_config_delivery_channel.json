@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_config_delivery_channel": {
+        "prefix": "aws_config_delivery_channel",
+        "body": "# http://inspec.io/docs/reference/resources/aws_config_delivery_channel\ndescribe aws_config_delivery_channel('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
