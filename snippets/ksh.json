@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe ksh": {
+        "prefix": "ksh",
+        "body": "# http://inspec.io/docs/reference/resources/ksh\ndescribe ksh('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
