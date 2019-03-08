@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_ec2_instances": {
+        "prefix": "aws_ec2_instances",
+        "body": "# http://inspec.io/docs/reference/resources/aws_ec2_instances\ndescribe aws_ec2_instances('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
