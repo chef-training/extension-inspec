@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_security_groups": {
+        "prefix": "aws_security_groups",
+        "body": "# http://inspec.io/docs/reference/resources/aws_security_groups\ndescribe aws_security_groups('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
