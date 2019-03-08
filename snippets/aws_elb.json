@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_elb": {
+        "prefix": "aws_elb",
+        "body": "# http://inspec.io/docs/reference/resources/aws_elb\ndescribe aws_elb('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
