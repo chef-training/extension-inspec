@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe azure_generic_resource": {
+        "prefix": "azure_generic_resource",
+        "body": "# http://inspec.io/docs/reference/resources/azure_generic_resource\ndescribe azure_generic_resource('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
