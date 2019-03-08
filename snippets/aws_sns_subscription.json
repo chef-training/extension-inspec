@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_sns_subscription": {
+        "prefix": "aws_sns_subscription",
+        "body": "# http://inspec.io/docs/reference/resources/aws_sns_subscription\ndescribe aws_sns_subscription('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
