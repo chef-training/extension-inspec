@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_subnets": {
+        "prefix": "aws_subnets",
+        "body": "# http://inspec.io/docs/reference/resources/aws_subnets\ndescribe aws_subnets('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
