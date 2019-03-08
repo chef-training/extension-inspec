@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe rabbitmq_config": {
+        "prefix": "rabbitmq_config",
+        "body": "# http://inspec.io/docs/reference/resources/rabbitmq_config\ndescribe rabbitmq_config('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
