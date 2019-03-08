@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe packages": {
+        "prefix": "packages",
+        "body": "# http://inspec.io/docs/reference/resources/packages\ndescribe packages('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
