@@ -2,7 +2,7 @@
     "name": "inspec",
     "displayName": "InSpec",
     "description": "Provide InSpec grammar and snippets to Visual Studio Code",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "publisher": "burtlo",
     "license": "Apache-2.0",
     "icon": "images/inspec-logo.png",
