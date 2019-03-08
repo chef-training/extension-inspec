@@ -1,8 +1,0 @@
-{
-  ".source.inspec": {
-    "Describe auditd_rules": {
-      "prefix": "auditd_rules",
-      "body": "# http://inspec.io/docs/reference/resources/auditd_rules/\ndescribe auditd_rules do\n  its('lines') { should${4:_not} contain_match(%r{${5:rule text}}) }${6}\nend"
-    }
-  }
-}
