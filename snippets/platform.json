@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe platform": {
+        "prefix": "platform",
+        "body": "# http://inspec.io/docs/reference/resources/platform\ndescribe platform('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
