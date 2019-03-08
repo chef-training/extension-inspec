@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe iis_app": {
+        "prefix": "iis_app",
+        "body": "# http://inspec.io/docs/reference/resources/iis_app\ndescribe iis_app('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
