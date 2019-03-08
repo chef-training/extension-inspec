@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_ebs_volumes": {
+        "prefix": "aws_ebs_volumes",
+        "body": "# http://inspec.io/docs/reference/resources/aws_ebs_volumes\ndescribe aws_ebs_volumes('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
