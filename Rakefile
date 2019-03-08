@@ -117,7 +117,7 @@ namespace :snippets do
     desc 'Prints a markdown rendered table to show what is supported'
     task 'status:md' do
       resource_status = inspec_resources.map do |name|
-        "![#{name}](http://inspec.io//docs/reference/resources/#{name})| #{existing_resources_registered.include?(name) ? ":white_check_mark: [#{name}](https://github.com/chef-training/extension-inspec/tree/master/snippets/#{name}.json)" : ':x:'}|"
+        "|[#{name}](https://inspec.io/docs/reference/resources/#{name})| #{existing_resources_registered.include?(name) ? ":white_check_mark: [#{name}](https://github.com/chef-training/extension-inspec/tree/master/snippets/#{name}.json)" : ':x:'}|"
       end
 
 
