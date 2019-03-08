@@ -2,6 +2,10 @@
 
 This file describes the differences between all versions. At the moment this document is maintained by hand so there be omissions and errors.
 
+### 0.4.4 - 03/08/2019
+
+* Adds CHANGELOG.md as separate file.
+
 ### 0.4.3 - 03/08/2019
 
 * Updates the host resource to use `protocol` instead of `proto` ([kmf](https://github.com/kmf))
