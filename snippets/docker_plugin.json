@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe docker_plugin": {
+        "prefix": "docker_plugin",
+        "body": "# http://inspec.io/docs/reference/resources/docker_plugin\ndescribe docker_plugin('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
