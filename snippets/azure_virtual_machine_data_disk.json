@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe azure_virtual_machine_data_disk": {
+        "prefix": "azure_virtual_machine_data_disk",
+        "body": "# http://inspec.io/docs/reference/resources/azure_virtual_machine_data_disk\ndescribe azure_virtual_machine_data_disk('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
