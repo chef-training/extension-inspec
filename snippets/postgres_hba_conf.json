@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe postgres_hba_conf": {
+        "prefix": "postgres_hba_conf",
+        "body": "# http://inspec.io/docs/reference/resources/postgres_hba_conf\ndescribe postgres_hba_conf('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
