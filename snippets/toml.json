@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe toml": {
+        "prefix": "toml",
+        "body": "# http://inspec.io/docs/reference/resources/toml\ndescribe toml('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
