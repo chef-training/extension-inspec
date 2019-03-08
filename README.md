@@ -136,8 +136,4 @@ Contributions are welcomed, please create an issue and a pull requests via the [
 
 ## Version History
 
-### 0.1.2 - 06/12/2016
-* Added a snippet for the```[windows_task]```resource ([username-is-already-taken2](https://github.com/username-is-already-taken2))
-
-### 0.1.1 - 15/11/2016
-* This was is the initial release of extension
+Review the [CHANGELOG.md](CHANGELOG.md)
