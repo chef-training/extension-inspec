@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_vpcs": {
+        "prefix": "aws_vpcs",
+        "body": "# http://inspec.io/docs/reference/resources/aws_vpcs\ndescribe aws_vpcs('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
