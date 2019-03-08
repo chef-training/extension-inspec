@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_s3_buckets": {
+        "prefix": "aws_s3_buckets",
+        "body": "# http://inspec.io/docs/reference/resources/aws_s3_buckets\ndescribe aws_s3_buckets('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
