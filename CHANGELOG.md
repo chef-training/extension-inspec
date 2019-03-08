@@ -2,7 +2,7 @@
 
 This file describes the differences between all versions. At the moment this document is maintained by hand so there be omissions and errors.
 
-### 0.5.1 - 03/08/2019
+### 0.5.2 - 03/08/2019
 
 * Adds the ability to generate markdown table (Lynn Frank)
 * Updates the README to show resource support matrix (Lynn Frank)
