@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe windows_registry_key": {
+        "prefix": "windows_registry_key",
+        "body": "# http://inspec.io/docs/reference/resources/windows_registry_key\ndescribe windows_registry_key('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
