@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aide_conf": {
+        "prefix": "aide_conf",
+        "body": "# http://inspec.io/docs/reference/resources/aide_conf\ndescribe aide_conf('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
