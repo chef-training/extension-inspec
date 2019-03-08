@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe etc_hosts_deny": {
+        "prefix": "etc_hosts_deny",
+        "body": "# http://inspec.io/docs/reference/resources/etc_hosts_deny\ndescribe etc_hosts_deny('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
