@@ -21,7 +21,11 @@ namespace :snippets do
   def extension_package_desc
     JSON.parse(File.read(extension_package_file))
   end
-
+  
+  def extension_version
+    extension_package_desc["version"]
+  end
+  
   def update_resource_definitions(resources)
     updated_extension_package_desc = extension_package_desc
     base_language_snippets = [ { language: 'inspec', path: './snippets/_language-inspec.json' } ]
@@ -109,6 +113,19 @@ namespace :snippets do
 
       puts ""
     end
+
+    desc 'Prints a markdown rendered table to show what is supported'
+    task 'status:md' do
+      resource_status = inspec_resources.map do |name|
+        "![#{name}](http://inspec.io//docs/reference/resources/#{name})| #{existing_resources_registered.include?(name) ? ":white_check_mark: [#{name}](https://github.com/chef-training/extension-inspec/tree/master/snippets/#{name}.json)" : ':x:'}|"
+      end
+
+
+      puts "| *InSpec Resource* | *Extension Snippet* |"
+      puts "|-------------------|---------------------|"
+      puts resource_status.join("\n")
+    end
+
 
     desc 'Purges missing resources, creates snippets, registers them, and then commits them all'
     task :update => [:purge, :create, :register, :commit] do
@@ -218,9 +235,6 @@ namespace :snippets do
     end
    end
 
-  def extension_version
-    extension_package_desc["version"]
-  end
 end
 
 namespace :changelog do
