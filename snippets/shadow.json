@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe shadow": {
+        "prefix": "shadow",
+        "body": "# http://inspec.io/docs/reference/resources/shadow\ndescribe shadow('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
