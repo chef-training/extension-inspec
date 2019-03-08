@@ -16,7 +16,8 @@
     "dependencies": {
         "vsce": "^1.57.1"
     },
-    "devDependencies": {},
+    "devDependencies": {
+    },
     "scripts": {
         "publish:major": "vsce publish major",
         "publish:minor": "vsce publish minor",
@@ -49,31 +50,11 @@
             },
             {
                 "language": "inspec",
-                "path": "./snippets/apache_conf.json"
+                "path": "./snippets/runit_service.json"
             },
             {
                 "language": "inspec",
-                "path": "./snippets/apt.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/audit_policy.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/auditd_conf.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/auditd_rules.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/bash.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/bond.json"
+                "path": "./snippets/aws_cloudwatch_log_metric_filter.json"
             },
             {
                 "language": "inspec",
@@ -81,219 +62,23 @@
             },
             {
                 "language": "inspec",
-                "path": "./snippets/bsd_service.json"
+                "path": "./snippets/aws_cloudtrail_trails.json"
             },
             {
                 "language": "inspec",
-                "path": "./snippets/command.json"
+                "path": "./snippets/azure_resource_group.json"
             },
             {
                 "language": "inspec",
-                "path": "./snippets/csv.json"
+                "path": "./snippets/aws_flow_log.json"
             },
             {
                 "language": "inspec",
-                "path": "./snippets/directory.json"
+                "path": "./snippets/dh_params.json"
             },
             {
                 "language": "inspec",
-                "path": "./snippets/etc_group.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/etc_passwd.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/etc_shadow.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/file.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/gem.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/group.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/grub_conf.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/host.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/iis_site.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/inetd_conf.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/ini.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/interface.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/iptables.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/json.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/kernel_module.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/kernel_parameter.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/launchd_service.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/limits_conf.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/login_defs.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/mount.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/mysql_conf.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/mysql_session.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/npm.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/ntp_conf.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/oneget.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/os.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/os_env.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/package.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/parse_config.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/parse_config_file.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/pip.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/port.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/postgres_conf.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/postgres_session.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/powershell.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/processes.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/registry_key.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/runit_service.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/security_policy.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/service.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/ssh_config.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/sshd_config.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/ssl.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/sys_info.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/systemd_service.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/sysv_service.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/upstart_service.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/user.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/users.json"
-            },
-            {
-                "language": "inspec",
-                "path": "./snippets/vbscript.json"
+                "path": "./snippets/ksh.json"
             },
             {
                 "language": "inspec",
@@ -301,7 +86,111 @@
             },
             {
                 "language": "inspec",
-                "path": "./snippets/windows_task.json"
+                "path": "./snippets/ntp_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_cloudwatch_alarm.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/gem.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/elasticsearch.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/iis_app_pool.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/launchd_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/postgres_session.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/auditd.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_ec2_instance.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/csv.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/zfs_pool.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/etc_hosts_allow.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_vpcs.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/npm.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_s3_buckets.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_s3_bucket.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/host.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/virtualization.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/firewalld.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/rabbitmq_config.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_role.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/script.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/apache.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_users.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/ini.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/apache_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/os.json"
             },
             {
                 "language": "inspec",
@@ -309,7 +198,243 @@
             },
             {
                 "language": "inspec",
-                "path": "./snippets/xinetd_conf.json"
+                "path": "./snippets/inetd_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_vpc.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/docker_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_policy.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/azure_virtual_machine_data_disk.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/xml.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/windows_registry_key.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_security_groups.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/azure_generic_resource.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_ecs_cluster.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_access_key.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/vbscript.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/mysql.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/limits_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/oneget.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/docker_container.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/mysql_session.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/linux_kernel_parameter.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/systemd_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_billing_report.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/iis_website.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/ppa.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/file.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/postgres_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/auditd_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/mount.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_sns_topics.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_config_delivery_channel.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_rds_instance.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_password_policy.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/audit_policy.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/azure_virtual_machine.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/grub_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/mysql_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/http.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/upstart_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/users.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/platform.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/windows_hotfix.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/security_identifier.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_sqs_queue.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/x509_certificate.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/kernel_module.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_cloudtrail_trail.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/parse_config.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/bsd_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/postgres_hba_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_access_keys.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_subnets.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/toml.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/postgres_ident_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/passwd.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_root_user.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_groups.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_elbs.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/processes.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_user.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_ec2_instances.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_group.json"
             },
             {
                 "language": "inspec",
@@ -317,7 +442,279 @@
             },
             {
                 "language": "inspec",
+                "path": "./snippets/ssl.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_s3_bucket_object.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/docker.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/user.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/registry_key.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/parse_config_file.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_sns_subscription.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/package.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_security_group.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/command.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_iam_policies.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/kernel_parameter.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/postgres.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_sns_topic.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/oracledb_session.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/iptables.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/apt.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/etc_fstab.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/chocolatey_package.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/etc_hosts_deny.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/port.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/directory.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/login_defs.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_billing_reports.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/sys_info.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/packages.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_elb.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/groups.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/sshd_config.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/nginx.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/json.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/docker_plugin.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/mssql_session.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_subnet.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/nginx_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/shadow.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/key_rsa.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/docker_image.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_kms_keys.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/xinetd_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/etc_hosts.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/sysv_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/group.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/interface.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_kms_key.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/pip.json"
+            },
+            {
+                "language": "inspec",
                 "path": "./snippets/yum.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/iis_site.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/cran.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_route_tables.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/iis_app.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_route_table.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/powershell.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/cpan.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_eks_cluster.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/windows_task.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/bond.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/filesystem.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/zfs_dataset.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/bash.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/etc_group.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/os_env.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/ssh_config.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/crontab.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/security_policy.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_ebs_volumes.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_config_recorder.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aide_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/aws_ebs_volume.json"
             }
         ],
         "grammars": [
