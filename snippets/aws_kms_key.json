@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_kms_key": {
+        "prefix": "aws_kms_key",
+        "body": "# http://inspec.io/docs/reference/resources/aws_kms_key\ndescribe aws_kms_key('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
