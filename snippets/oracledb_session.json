@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe oracledb_session": {
+        "prefix": "oracledb_session",
+        "body": "# http://inspec.io/docs/reference/resources/oracledb_session\ndescribe oracledb_session('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
