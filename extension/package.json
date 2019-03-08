@@ -1,0 +1,313 @@
+{
+    "name": "inspec",
+    "displayName": "InSpec",
+    "description": "Provide InSpec grammar and snippets to Visual Studio Code",
+    "version": "0.1.2",
+    "publisher": "burtlo",
+	"icon": "images/inspec-logo.svg",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chef-training/extension-inspec.git"
+	},
+	"bugs": {
+		"url": "https://github.com/chef-training/extension-inspec/issues"
+	},      
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "inspec",
+            "aliases": ["InSpec", "inspec"],
+            "extensions": [".rb"],
+            "configuration": "./language-configuration.json"
+        }],
+        "snippets":[
+            {
+                "language": "inspec",
+                "path": "./snippets/_language-inspec.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/apache_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/apt.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/audit_policy.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/auditd_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/auditd_rules.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/bash.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/bond.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/bridge.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/bsd_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/command.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/csv.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/directory.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/etc_group.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/etc_passwd.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/etc_shadow.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/file.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/gem.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/group.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/grub_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/host.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/iis_site.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/inetd_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/ini.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/interface.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/iptables.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/json.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/kernel_module.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/kernel_parameter.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/launchd_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/limits_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/login_defs.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/mount.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/mysql_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/mysql_session.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/npm.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/ntp_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/oneget.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/os.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/os_env.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/package.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/parse_config.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/parse_config_file.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/pip.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/port.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/postgres_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/postgres_session.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/powershell.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/processes.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/registry_key.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/runit_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/security_policy.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/ssh_config.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/sshd_config.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/ssl.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/sys_info.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/systemd_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/sysv_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/upstart_service.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/user.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/users.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/vbscript.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/windows_feature.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/windows_task.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/wmi.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/xinetd_conf.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/yaml.json"
+            },
+            {
+                "language": "inspec",
+                "path": "./snippets/yum.json"
+            }
+
+        ],
+        "grammars": [{
+            "language": "inspec",
+            "scopeName": "source.ruby.rspec",
+            "path": "./syntaxes/inspec.tmLanguage"
+        }]
+    }
+}
