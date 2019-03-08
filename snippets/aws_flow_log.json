@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_flow_log": {
+        "prefix": "aws_flow_log",
+        "body": "# http://inspec.io/docs/reference/resources/aws_flow_log\ndescribe aws_flow_log('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
