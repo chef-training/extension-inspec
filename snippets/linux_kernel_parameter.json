@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe linux_kernel_parameter": {
+        "prefix": "linux_kernel_parameter",
+        "body": "# http://inspec.io/docs/reference/resources/linux_kernel_parameter\ndescribe linux_kernel_parameter('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
