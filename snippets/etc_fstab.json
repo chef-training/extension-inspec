@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe etc_fstab": {
+        "prefix": "etc_fstab",
+        "body": "# http://inspec.io/docs/reference/resources/etc_fstab\ndescribe etc_fstab('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
