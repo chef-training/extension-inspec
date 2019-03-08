@@ -1,0 +1,8 @@
+{
+    ".source.inspec": {
+      "Describe aws_route_table": {
+        "prefix": "aws_route_table",
+        "body": "# http://inspec.io/docs/reference/resources/aws_route_table\ndescribe aws_route_table('${1:name}') do\n  it { should${2:_not} ${3:exist} }${4}\nend"
+      }
+    }
+  }
