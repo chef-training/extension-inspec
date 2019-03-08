@@ -7,7 +7,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "publish": "vsce publish"
+    "publish:major": "cd extension && vsce publish major",
+    "publish:minor": "cd extension && vsce publish minor",
+    "publish:patch": "cd extension && vsce publish patch"
   },
   "repository": {
     "type": "git",
